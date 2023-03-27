@@ -1,0 +1,58 @@
+
+header{
+    height: 150px;
+    background-color: rgb(243, 242, 242);
+}
+header nav *{
+    float: left;
+    width: 20%;
+    color: blue;
+    padding-top: 2%;
+    display: inline;
+
+}
+header nav ul {
+    padding-top: 0;
+}
+header nav input{
+    width: 50%;
+}
+header nav span:first-child{
+    margin-left: 8em;
+}
+main{
+    height: 500px;
+    padding-left: 200px;
+}
+main > section:first-child{
+    float: left;
+}
+
+ul{
+    list-style-type: none;
+}
+section >ul li{
+    float: left;
+    width: 10%;
+    
+}
+section > ul li a{
+    background-color: rgb(34, 83, 175);
+    color:  white;
+    padding: 8px ;
+   
+}
+a{
+    text-decoration: none;
+}
+footer h3{
+    padding-left: 600px;
+    font-size: 2rem;
+    margin-top: 0;
+    padding-top: 1em;
+}
+footer{
+    background-color: rgb(243, 242, 242);
+    height: 130px;
+  
+}
